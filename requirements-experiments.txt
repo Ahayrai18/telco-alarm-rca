@@ -1,0 +1,8 @@
+# To re-run the experiments, the notebook and the tests
+-r requirements.txt
+gcastle==1.0.4      # PC and TTPM. PyTorch is NOT required: src/alarmrca/compat.py loads them without torch.
+pytest>=8
+ipykernel>=6
+nbclient>=0.10
+nbformat>=5.10
+jupyterlab>=4       # optional, to open the notebook

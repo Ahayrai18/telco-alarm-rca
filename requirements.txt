@@ -1,0 +1,8 @@
+# Dashboard and analysis modules (gCastle not needed)
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+networkx>=3.2
+matplotlib>=3.8
+altair>=5.3
+streamlit>=1.55

@@ -1,0 +1,17 @@
+dataset,method,role,hops,precision,recall,f1,skeleton_f1,shd,edges_pred,edges_true,runtime_s,note,tp,fp,fn,reversed,bic_score,f1_chance
+18V_55N_Wireless,Random,main,0,0.2285,0.2285,0.2285,0.4507,91.1333,69.0,69,0.0,mean of 300 random DAGs with as many edges as the answer key,,,,,,0.2285
+18V_55N_Wireless,Lift,main,0,0.7083,0.2464,0.3656,0.4301,56.0,24.0,69,1.52,W=60s lift>=3.0,17.0,7.0,52.0,3.0,,0.1236
+18V_55N_Wireless,PC,main,0,0.2466,0.2609,0.2535,0.5352,86.0,73.0,69,2.63,"600s windows per device, n=18518",18.0,55.0,51.0,20.0,,0.2348
+18V_55N_Wireless,TTPM,main,0,0.7255,0.5362,0.6167,0.7667,37.0,51.0,69,6.23,delta=0.1 hops<=0 iterations=52,37.0,14.0,32.0,9.0,-413428.0,0.201
+24V_439N_Microwave,Random,main,0,0.2449,0.2449,0.2449,0.4968,172.4,137.0,137,0.0,mean of 300 random DAGs with as many edges as the answer key,,,,,,0.2449
+24V_439N_Microwave,Lift,main,2,0.2647,0.1314,0.1756,0.4098,145.0,68.0,137,5.38,W=60s lift>=3.0,18.0,50.0,119.0,24.0,,0.1637
+24V_439N_Microwave,PC,main,2,0.2568,0.1387,0.1801,0.3905,150.0,74.0,137,1.25,"600s windows per device, n=13320",19.0,55.0,118.0,22.0,,0.1746
+24V_439N_Microwave,TTPM,main,2,0.506,0.3066,0.3818,0.5273,120.0,83.0,137,34.45,delta=0.1 hops<=2 iterations=84,42.0,41.0,95.0,16.0,-523452.5,0.193
+24V_439N_Microwave,TTPM hop<=0,ablation_topology,0,0.4333,0.2847,0.3436,0.5286,128.0,90.0,137,16.55,delta=0.1,39.0,51.0,98.0,21.0,,0.201
+24V_439N_Microwave,TTPM hop<=1,ablation_topology,1,0.4632,0.3212,0.3793,0.5172,128.0,95.0,137,26.68,delta=0.1,44.0,51.0,93.0,16.0,,0.1997
+25V_474N_Microwave,Random,main,0,0.2472,0.2472,0.2472,0.4945,186.2267,148.0,148,0.0,mean of 300 random DAGs with as many edges as the answer key,,,,,,0.2472
+25V_474N_Microwave,Lift,main,2,0.2053,0.2095,0.2074,0.5017,193.0,151.0,148,4.77,W=60s lift>=3.0,31.0,120.0,117.0,44.0,,0.2479
+25V_474N_Microwave,PC,main,2,0.3418,0.1824,0.2379,0.4846,145.0,79.0,148,0.93,"600s windows per device, n=13291",27.0,52.0,121.0,28.0,,0.1727
+25V_474N_Microwave,TTPM,main,2,0.4268,0.2365,0.3043,0.5043,137.0,82.0,148,26.74,delta=0.1 hops<=2 iterations=83,35.0,47.0,113.0,23.0,-434274.8,0.1763
+25V_474N_Microwave,TTPM hop<=0,ablation_topology,0,0.4021,0.2635,0.3184,0.5306,141.0,97.0,148,19.02,delta=0.1,39.0,58.0,109.0,26.0,,0.2005
+25V_474N_Microwave,TTPM hop<=1,ablation_topology,1,0.4118,0.2365,0.3004,0.4979,140.0,85.0,148,20.83,delta=0.1,35.0,50.0,113.0,23.0,,0.1812

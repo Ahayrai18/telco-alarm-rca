@@ -1,0 +1,5 @@
+The data in data/raw comes from the gCastle project / gcastle-hub/dataset
+(Huawei Noah's Ark Lab) and is licensed under the Apache License 2.0:
+  https://github.com/gcastle-hub/dataset
+  https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle
+The files are unchanged. This project is not affiliated with Huawei.

@@ -1,0 +1,29 @@
+{
+ "config": {
+  "lift": {
+   "window": 60,
+   "min_lift": 3.0,
+   "min_conf": 0.05,
+   "min_support": 20
+  },
+  "pc": {
+   "window": 600,
+   "per_device": true,
+   "alpha": 0.05
+  },
+  "ttpm": {
+   "delta": 0.1,
+   "epsilon": 1.0
+  },
+  "triage_window": 60
+ },
+ "python": "3.12.3",
+ "numpy": "2.4.4",
+ "pandas": "3.0.2",
+ "gcastle": "1.0.4",
+ "datasets": [
+  "18V_55N_Wireless",
+  "24V_439N_Microwave",
+  "25V_474N_Microwave"
+ ]
+}
